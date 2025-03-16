@@ -90,6 +90,10 @@ video {
     vertical-align: baseline;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -106,7 +110,6 @@ a {
 #home,
 #blog,
 #about {
-    scroll-behavior: smooth;
     scroll-margin-top: 135px;
 }
 
@@ -123,35 +126,36 @@ a {
     flex-wrap: wrap;
     align-items: center;
     background-color: rgb(245, 245, 245);
-    padding: 11px 0;
-    vertical-align: center;
+    padding: 10px 0;
 }
 
-.contact {
+.number {
     font-size: 16px;
     color: #444444;
     font-weight: 400;
-    margin-left: 75px;
+    margin-left: 5.5%;
 }
 
 .mail {
     font-size: 16px;
     color: #444444;
     font-weight: 400;
-    margin-left: 30px;
+    margin-left: 2.4%;
+    align-self: center;
 }
 
 .mail-icon {
     color: #1abc9c;
     padding-right: 5px;
-    font-size: 17px;
-    align-self: baseline;
+    font-size: 20px;
 }
 
 .phone {
     color: #1abc9c;
     font-size: 12px;
-    align-self: center;
+    vertical-align: top;
+    padding-right: 7px;
+    padding-top: 3px;
 }
 
 .phone:hover {
@@ -167,7 +171,7 @@ a {
     list-style: none;
     font-size: 17px;
     font-weight: 700;
-    margin-left: 510px;
+    margin-left: 495px;
 }
 
 .social-list li a {
