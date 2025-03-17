@@ -123,8 +123,8 @@ a {
 
 .top-social {
     display: flex;
-    flex-wrap: no-wrap;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     background-color: rgb(245, 245, 245);
     padding: 10px 0;
@@ -134,14 +134,14 @@ a {
     font-size: 15px;
     color: #444444;
     font-weight: 400;
-    margin-left: 5.5%;
+    margin-left: 80px;
 }
 
 .mail {
     font-size: 15px;
     color: #444444;
     font-weight: 400;
-    margin-left: 2.4%;
+    margin-right: 430px;
     align-self: center;
 }
 
@@ -172,7 +172,7 @@ a {
     list-style: none;
     font-size: 17px;
     font-weight: 700;
-    margin-left: 480px;
+    margin-right: 60px;
 }
 
 .social-list li a {
