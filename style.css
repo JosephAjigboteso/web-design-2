@@ -123,8 +123,9 @@ a {
 
 .top-social {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     align-items: center;
+    width: 100%;
     background-color: rgb(245, 245, 245);
     padding: 10px 0;
 }
@@ -171,7 +172,7 @@ a {
     list-style: none;
     font-size: 17px;
     font-weight: 700;
-    margin-left: 495px;
+    margin-left: 480px;
 }
 
 .social-list li a {
