@@ -414,8 +414,7 @@ a {
     font-family: "Raleway", sans-serif;
 }
 
-.port-head-text1,
-.port-cont h1 {
+.port-head-text1 {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -425,11 +424,20 @@ a {
 
 .port-cont {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 32px;
 }
 
-.port-head-text2,
-.port-cont h2 {
+.work-1 {
+    flex: 1;
+}
+
+.work-1 img {
+    width: 100%;
+}
+
+
+.port-head-text2 {
     text-align: center;
     font-size: 20px;
     font-weight: 400;
